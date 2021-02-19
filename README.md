@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Domestika 11ty
 
 A minimal 11ty starting point.
@@ -29,3 +30,6 @@ The local url is configured in `.lightserverrc`
 ```
 npm run build
 ```
+=======
+# portafolio_fotografia
+>>>>>>> 7c50c5a36794fe763ae76511e33689ca0d45802b
