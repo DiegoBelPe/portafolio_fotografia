@@ -1,24 +1,31 @@
 html {
-  /* Variables tipográficas */
-  --text-2xs: 10px;
-  --text-xs: 12px;
-  --text-s: 14px;
-  --text-m: 16px;
-  --text-l: 18px;
-  --text-xl: 20px;
-  --text-2xl: 24px;
-  --text-3xl: 30px;
-  --text-4xl: 36px;
-  --text-5xl: 48px;
-  --text-6xl: 64px;
+  /*Familias tipograficas*/
+--font-1: "Raleway", sans-serif;
+--font-2: "Abril Fatface", sans-serif;
 
   /* Escala aplicada */
-  --text-caption: var(--text-xs);
-  --text-note: var(--text-x);
-  --text-base: var(--text-m);
-  --text-subheader: var(--text-2xl);
-  --text-title: var(--text-3xl);
-  --text-headline: var(--text-4xl);
-  --text-display: var(--text-5xl);
-  --text-jumbo: var(--text-6xl);
+  --text-caption: 14px;
+  --text-note: 16px;
+  --text-base: 20px;
+  --text-subheader: 24px;
+  --text-title: 48px;
+  --text-headline: 72px:
+  --text-display: 96px;
+  --text-jumbo: 144px;
+}
+
+@media (max-with: 900px){
+  html{
+
+      /* Variables tipográficas */
+  --text-caption: 12px;
+  --text-note: 14px;
+  --text-base: 16px;
+  --text-subheader: 20px;
+  --text-title: 24px;
+  --text-headline: 36px:
+  --text-display: 48px;
+  --text-jumbo: 60px;
+
+  }
 }
